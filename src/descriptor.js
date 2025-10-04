@@ -12,5 +12,13 @@ const restaurantDescriptionText = `
 const workHoursMondayToFridayText = `Monday - Friday: 8am - 8pm`;
 const workHoursSaturdayText = `Satuarday: 8am - 10pm`;
 
+const breakfastOne = `Zen Glow Bowl`;
+const breakfastTwo = `Avocado Balance Toast`;
+const breakfastThree = `Protein Pancakes`;
 
-export {restaurantDescriptionText, workHoursMondayToFridayText, workHoursSaturdayText};
+const breakFastOneDescription = `Greek yogurt, chia seeds, mango, blueberries, and a drizzle of honey topped with toasted coconut flakes.`;
+const breakFastTwoDescription = `Whole-grain sourdough, smashed avocado, poached egg, microgreens, and chili flakes.`;
+const breakFastThreeDescription = `Oat and banana pancakes served with Greek yogurt and berry compote — sweet and nourishing.`;
+
+
+export {restaurantDescriptionText, workHoursMondayToFridayText, workHoursSaturdayText,breakfastOne, breakfastTwo, breakfastThree, breakFastOneDescription,breakFastTwoDescription,breakFastThreeDescription};
