@@ -20,5 +20,17 @@ const breakFastOneDescription = `Greek yogurt, chia seeds, mango, blueberries, a
 const breakFastTwoDescription = `Whole-grain sourdough, smashed avocado, poached egg, microgreens, and chili flakes.`;
 const breakFastThreeDescription = `Oat and banana pancakes served with Greek yogurt and berry compote — sweet and nourishing.`;
 
+const aboutUsText = `
+At ZenBites, we believe that food is more than fuel — it’s a form of balance, mindfulness, and connection. Born from a love of clean ingredients and peaceful living, ZenBites is a space where every meal nourishes both body and mind.
 
-export {restaurantDescriptionText, workHoursMondayToFridayText, workHoursSaturdayText,breakfastOne, breakfastTwo, breakfastThree, breakFastOneDescription,breakFastTwoDescription,breakFastThreeDescription};
+Our philosophy is simple: eat consciously, live vibrantly.
+Each dish is crafted from fresh, locally-sourced ingredients, inspired by the harmony of nature and the flavors of world wellness cuisines. Whether it’s a vibrant smoothie bowl to start your morning or a warm, wholesome lunch that recharges your day, we bring together nutrition and creativity in every bite.
+
+We created ZenBites as a place where healthy eating feels effortless — calm music, earthy tones, the scent of fresh herbs, and a menu that’s colorful, honest, and full of life. No extremes, no guilt, just food that helps you feel your best.
+
+Come to ZenBites to slow down, savor your meal, and rediscover the joy of eating well.
+Balance begins here.
+
+`
+
+export { restaurantDescriptionText, workHoursMondayToFridayText, workHoursSaturdayText, breakfastOne, breakfastTwo, breakfastThree, breakFastOneDescription, breakFastTwoDescription, breakFastThreeDescription, aboutUsText};
