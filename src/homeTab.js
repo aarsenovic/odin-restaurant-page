@@ -4,14 +4,8 @@ import {
   workHoursSaturdayText 
 } from "./descriptor";
 
+import { createElement } from "./helperFunction";
 
-function createElement(tag, { text, classes = [], children = [] } = {}) {
-  const el = document.createElement(tag);
-  if (text) el.textContent = text;
-  if (classes.length) el.classList.add(...classes);
-  children.forEach(child => el.appendChild(child));
-  return el;
-}
 
 function createHeader() {
   return createElement("h1", { text: "ZenBites" });
