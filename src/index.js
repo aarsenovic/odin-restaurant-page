@@ -1,1 +1,5 @@
-console.log("Povezani smo!");
+import "./style.css"
+import renderHomeTab from "./homeTab"
+
+
+renderHomeTab();
