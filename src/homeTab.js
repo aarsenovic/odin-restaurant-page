@@ -6,6 +6,8 @@ import {
 
 import { createElement } from "./helperFunction";
 
+import logoImage from "./images/logo.jpg"
+
 
 function createHeader() {
   return createElement("h1", { text: "ZenBites" });
@@ -48,6 +50,12 @@ function createLocation() {
     })
 }
 
+function createImageContainer() {
+  const image = createElement("img", {attrs:{src: logoImage}})
+
+  return createElement ("div", {classes: ["image-container"], children:[image]})
+}
+
 
 
 
@@ -59,6 +67,7 @@ function renderHomeTab() {
   content.appendChild(createDescription());
   content.appendChild(createWorkHours());
   content.appendChild(createLocation());
+  content.appendChild(createImageContainer());
 }
 
 export default renderHomeTab;
