@@ -12,7 +12,7 @@ function createHeader() {
 }
 
 function createDescription() {
-  const descriptionText = createElement("p", { text: restaurantDescriptionText });
+  const descriptionText = createElement("p", { text: restaurantDescriptionText, classes:["description-text"] });
   return createElement("div", { classes: ["description-container"], children: [descriptionText] });
 }
 

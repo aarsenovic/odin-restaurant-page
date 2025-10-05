@@ -10,7 +10,8 @@ const tabRenderers = {
 };
 
 renderHomeTab();
-
+const homeButton = document.querySelector('[data-tab="home"]');
+setActiveButton(homeButton);
 
 function attachEventListeners() {
   document.querySelectorAll(".nav-button").forEach(button => {
@@ -27,10 +28,10 @@ function setActiveButton(button){
     const allButtons = document.querySelectorAll(".nav-button");
 
     for (let i = 0; i<allButtons.length; i++) {
-        allButtons[i].classList.remove("selected");
+        allButtons[i].classList.remove("active");
     }
 
-    button.classList.add("selected");
+    button.classList.add("active");
 }
 
 attachEventListeners();
