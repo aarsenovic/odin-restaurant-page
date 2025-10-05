@@ -41,17 +41,6 @@ h1 {
     margin-bottom: 1em;
 }
 
-.description-text {
-    text-align: justify;
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1.5;
-    margin-bottom: 2em;
-    padding: 0.75em;
-    border: 3px solid #A8C686;
-}
-
 .working-hours-container {
     display: flex;
     justify-content: center;
@@ -83,7 +72,7 @@ h2 {
     color: #2E2E2E;
 }
 
-.breakfast-container {
+.breakfast-container, .about-us-container,.description-text {
     text-align: justify;
     width: 600px;
     margin-left: auto;
@@ -103,3 +92,4 @@ h2 {
     color: #2E2E2E;
     padding-left: 1em;
 }
+
